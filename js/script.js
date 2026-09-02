@@ -20,3 +20,17 @@ previewBox.forEach(close =>{
     preveiwContainer.style.display = 'none';
   };
 });
+
+function filterProducts() {
+  let input = document.getElementById('searchInput');
+  let filter = input.value.toLowerCase();
+  let products = document.querySelectorAll('.products-container .product');
+  products.forEach(product => {
+    let name = product.querySelector('h3').textContent.toLowerCase();
+    if (name.includes(filter)) {
+      product.style.display = '';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+}

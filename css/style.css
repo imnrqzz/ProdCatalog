@@ -33,6 +33,24 @@ body{
    text-align: center;
 }
 
+.search-bar {
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.search-bar input {
+   padding: 1rem 2rem;
+   font-size: 1.6rem;
+   border: 0.1rem solid #ccc;
+   border-radius: 0.5rem;
+   width: 100%;
+   max-width: 400px;
+   text-transform: none;
+}
+.search-bar input:focus {
+   border-color: #27ae60;
+   outline: none;
+}
+
 .container .products-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));

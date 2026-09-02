@@ -16,12 +16,16 @@
 
 </head>
 <body>
-   
+
 <div class="container">
 
-   <h3 class="title"> organic products </h3>
+   <h3 class="title"> Organic Products </h3>
 
-   <div class="products-container">
+   <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products..." onkeyup="filterProducts()">
+   </div>
+
+   <div class="products-container" id="productsContainer">
 
       <div class="product" data-name="p-1">
          <img src="images/1.png" alt="">
@@ -43,7 +47,7 @@
 
       <div class="product" data-name="p-4">
          <img src="images/4.png" alt="">
-         <h3>Talong</h3>
+         <h3>talong</h3>
          <div class="price">Php 80.00</div>
       </div>
 
@@ -77,7 +81,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>Fresh From Baguio.</p>
+      <p>Fresh from the highlands of Baguio.</p>
       <div class="price">Php 40.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
@@ -97,7 +101,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>Fresh From the soil HAHAHAHA.</p>
+      <p>Freshly harvested from local farms.</p>
       <div class="price">Php 8.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
@@ -117,7 +121,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>We collected and pick the best one for our customers.</p>
+      <p>Hand-picked for the best quality.</p>
       <div class="price">Php 10.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
@@ -137,7 +141,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>Pwedeng pwede i pang tortang talong.</p>
+      <p>Perfect for tortang talong and other Filipino dishes.</p>
       <div class="price">Php 80.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
@@ -157,7 +161,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>Pwedeng pwede i pang samgyupsal.</p>
+      <p>Great as a side dish for samgyupsal or steamed.</p>
       <div class="price">Php 50.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
@@ -177,7 +181,7 @@
          <i class="fas fa-star-half-alt"></i>
          <span>( 250 )</span>
       </div>
-      <p>Pwede i pang side dish sa samgyup.</p>
+      <p>Versatile for roasting, mashing, or frying.</p>
       <div class="price">Php 60.00</div>
       <div class="buttons">
          <a href="#" class="buy">buy now</a>
